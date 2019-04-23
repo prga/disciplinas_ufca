@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+
+\title{Banco de dados}
+\author{Gabriel Argenta}
+\date{Abril 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+ De acordo com o site \cite{DEVMEDIA}, um banco de dados ``é uma coleção de dados inter-relacionados, representando informações sobre um domínio específico'', ou seja, quando for possível agrupar informações que se relacionam e forem de um mesmo assunto, pode-se dizer que temos um. Por outro lado, um sistema de gerenciamento de banco de dados é um software que possui recursos que permitem a manipulação da informações contidas em um banco de dados e interagir com o usuário. Assim, com a junção dos dois nasce o conceito de sistema de banco de dados, que em resumo é o conjunto de quatro componentes básicos: dados, hardware, software, e usuários.
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\textwidth]{Bancodedadoss.png}
+    \caption{O que é um banco de dados?}
+    \label{fig:my_label}
+\end{figure}
+
+\section{Qual a relevância ?}
+Segundo o site \cite{aprendaplsql}, em resumo, ajuda na organização interna e pode definir os rumos de uma organização. Além de tarefas operacionais, essa ferramenta preciosa ajuda uma organização a conhecer seu público, manter contato com clientes e construir um bom relacionamento com eles, vender e avisar sobre novos produtos ou serviços, alertar sobre ofertas e promoções especiais, enviar informações a um grupo seleto de pessoas, traçar estratégias sólidas de crescimento entre outras coisas. Ou seja, para que uma organização tenha suas atividades facilitadas, tenha um bom andamento em seus projetos, seja mais eficiente, é imprescindível o uso de um BDD, já que o que seria feito a mão com muito trabalho, agora é feito quase que completamente com máquinas, de maneira mais ágil e prática.
+
+\section{Quais seriam as desvantagens ?}
+Existem basicamente duas: a primeira é que a implementação do mesmo seria cara e demorada, variando de empresa à empresa, de acordo com seu tamanho. A segunda é que mesmo com salvaguardas no lugar, pode ser possível para alguns usuários não autorizados acessar o banco de dados. Em geral, o acesso de banco de dados é uma proposição de tudo ou nada. Uma vez que um usuário não autorizado fica no banco de dados, eles têm acesso a todos os tabelas, e não apenas algumas. Dependendo da natureza dos dados envolvidos, essas quebras na segurança também pode representar uma ameaça à privacidade individual. Cuidados também devem ser tomados regularmente para fazer cópias de backup das tabelas e armazená-las por causa da possibilidade de incêndios e terremotos que poderiam destruir o sistema. (Algumas partes do texto retiradas do site \cite{EHGOMES}).
+\section{Qual a relação com outras disciplinas ?}
+Assim como para organizar uma organização em geral é necessário um banco de dados para gerenciá-la, muitas outras disciplinas como engenharia de software, inteligência artificial, programação, computação gráfica, e etc, é necessária uma melhor coordenação para que seu andamento flua com clareza e agilidade. Com isso, nossa disciplina BDD(Banco de dados) entra em ação e mostra sua plena influência no decorrer de tantas outras áreas de ciência da computação. A tabela \ref{tabela}
+\begin{table}[hbt!]
+\label{tabela}
+\begin{tabular}{|l|l|}
+\hline
+CC0102 Introdução à Programação                                                      & \begin{tabular}[c]{@{}l@{}}É PRE REQUISITO PARA ALGORITMOS\\  E ESTRUTURA DE DADOS I\end{tabular}                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}CC0201 Algoritmos e Estruturas de\\ Dados I\end{tabular}  & \begin{tabular}[c]{@{}l@{}}É PRE REQUISITO PARA ALGORITMOS E ESTRUTURA DE\\ DADOS II E LABORATÓRIO DE PROGRAMAÇÃO\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}l@{}}CC0301 Algoritmos e Estruturas de\\ Dados II\end{tabular} & \begin{tabular}[c]{@{}l@{}}É PRE REQUISITO PARA PROGRAMAÇÃO\\  ORIENTADA A OBJETO\end{tabular}                                 \\ \hline
+CC0302 Laboratório de Programação                                                    & \begin{tabular}[c]{@{}l@{}}É PRE REQUISITO PARA PROGRAMAÇÃO\\ ORIENTADA A OBJETO\end{tabular}                                  \\ \hline
+\begin{tabular}[c]{@{}l@{}}CC0402 Programação Orientada a\\ Objetos\end{tabular}     & É PRE REQUISITO PARA BANCO DE DADOS                                                                                            \\ \hline
+\end{tabular}
+\end{table}
+\newpage
+\bibliographystyle{ieeetr}
+\bibliography{bancodedados.bib}
+\end{document}
