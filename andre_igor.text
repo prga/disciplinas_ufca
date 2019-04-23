@@ -1,0 +1,64 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{Banco de Dados}
+\author{André Igor}
+\date{Abril 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+    Antes de entendermos como funciona um banco de dados devemos compreender primeiramente o que é um dado. Consequentemente, a definição mais aceita e de acordo com \cite{UNICAMP} é de que dados são uma representação de fatos, conceitos ou instruções de maneiras formalizadas, adequadas para comunicação, interpretação ou processamento por pessoas ou meios automatizados.
+    
+    Já um banco de dados segundo o pesquisador e palestrante Christopher J. Date "Um banco de dados é uma coleção de dados operacionais armazenados que são usados  pelas aplicações de uma determinada organização".
+    
+    Além disso, um sistema de banco de dados permite que as empresas tenham um controle mais centralizado e dinâmico de seus dados. Quando temos o oposto disso, ou seja, empresas(principalmente de médio e grande porte) que não usam um Sistema de Banco de Dados, fica nítido a dificuldade de controlar seu própio sistema, pois seus dados ficam muito dispersos e a empresa fica dependendo, tão somente, de seus própios arquivos.
+
+\section{Relevância}
+    A disciplina de Banco de Dados, segundo \cite{UNIPAR}, no curso de Ciência da Computação tem sua importância pelo fato do banco de dados pode ser aplicado em diversos setores e situações de um ambiente corporativo ou pessoal, a possibilidade de acessos simultâneos as informações através de diversas estações de trabalho, faz com que o banco de dados seja a ferramenta mais indicada para a realização de diversas atividades com uma mesma base de informações. 
+    
+    Atualmente o banco de dados está presente em quase todas as instituições que utilizam o meio online para a realização de suas atividades, entre elas podemos citar as universidades, companhias telefônicas e comércios online em geral. De acordo com a figura \ref{fig:my_label} podemos notar a relação dos usuários dessas instituições com o Sistema de Banco de Dados:
+\newpage    
+    \begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{bd.JPG}
+    \caption{Relação do SGBD com os usuários}
+    \label{fig:my_label}
+\end{figure}
+
+\section{Vantagens}
+Podemos citar algumas das várias vantagen do uso de um SGBD(Sistema de Gerenciamento de Banco de Dados) dentre elas falaremos algumas já discutidas por \cite{FATEC}. Vejamos:
+
+-Melhor controle dos dados: como os dados estarão alocados em apenas um local o acesso ficara mais fácil e mais rápido proporcionando menos gasto de tempo para a empresa.
+
+-Integridade dos dados: no modo de armazenamento antigo um dado pode possuir valores diferentes. Já no banco de dados é
+possível manter a consistência e a integridade dos dados. 
+
+-Mantimento de padrões e facil acesso aos dados: como os dados vão estar mais agrupados e centralizados em um só local, torna-se mais propício instituir padrões de nomenclatura e documentação. Devido a essa padronização arecuperação de informação é mais eficiente.
+
+\section{Relação com outras disciplinas}
+Confira a tabela \ref{tabela}:
+\begin{table}[htb!]
+\label{tabela}
+\begin{tabular}{|l|l|}
+\hline
+CC0102 Introdução à Programação                                                  & \begin{tabular}[c]{@{}l@{}}Introdução à Programação é pré requisito para \\ Algoritmos e Estruturas de Dados II  pois trabalha\\  o "primeiro contato do aluno" com a programação\\  e, logo, trabalha a sua lógica.\end{tabular}                         \\ \hline
+CC0201 Algoritmos e Estruturas de Dados I                                        & \begin{tabular}[c]{@{}l@{}}Algoritmos e Estruturas de Dados I é pré requisito\\  para Algoritmos  e Estruturas de Dados II  porque\\  já trabalha com o armazenamento de dados em \\ variáveis e, consequentemente, para o SGBD.\end{tabular}             \\ \hline
+CC0301 Algoritmos e Estruturas de Dados II                                       & \begin{tabular}[c]{@{}l@{}}Algoritmos e Estruturas de Dados II é pré\\  requisito para POO porque é um nível  mais\\  amplo de material acadêmico do que o visto \\ em Estrutura de Dados I e que será mais \\ utilizado em POO.\end{tabular}             \\ \hline
+CC0302 Laboratório de Programação                                                & \begin{tabular}[c]{@{}l@{}}Laboratório de programação é pré requisito\\ para POO pois começa de fato a emergir o \\ aluno na programação mostrando novos métodos, \\ novas linguagens e muita prática.\end{tabular}                                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}CC0402 Programação Orientada a\\ Objetos\end{tabular} & \begin{tabular}[c]{@{}l@{}}POO é pré requisito para ver a disciplina de \\ banco de dados pois trabalha o intermédio de\\  um programa como SGBD pois se realiza consultas,\\  cadastramentos de dados do programa para\\  o Banco de Dados.\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+\newpage
+\bibliographystyle{ieeetr}
+\bibliography{references.bib}
+
+
+
+
+
+
+\end{document}
